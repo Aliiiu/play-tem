@@ -1,0 +1,6 @@
+GET     /:id                                 controllers.EmployeeController.getAllEmployees(id: Integer)
+GET     /:id                                 controllers.EmployeeController.getEmployee(id: Integer)
+POST    /                                    controllers.EmployeeController.addEmployee(request:Request)
+POST    /signin                              controllers.EmployeeController.signIn(request:Request)
+PUT     /update                              controllers.EmployeeController.updatePassword(request:Request)
+DELETE  /:id                                 controllers.EmployeeController.removeEmployee(id: Integer)

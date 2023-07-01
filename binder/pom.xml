@@ -41,6 +41,18 @@
             <artifactId>hibernate-validator</artifactId>
             <version>5.4.3.Final</version>
         </dependency>
+        <dependency>
+            <groupId>org.encentral</groupId>
+            <artifactId>employee-impl</artifactId>
+            <version>1.0</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.encentral</groupId>
+            <artifactId>attendance-impl</artifactId>
+            <version>1.0</version>
+            <scope>compile</scope>
+        </dependency>
 
     </dependencies>
 </project>

@@ -137,7 +137,7 @@
 
     <build>
         <sourceDirectory>${basedir}/app</sourceDirectory>
-        <testSourceDirectory>${basedir}/test</testSourceDirectory>
+        <testSourceDirectory>${basedir}/</testSourceDirectory>
         <resources>
             <resource>
                 <directory>${basedir}/conf</directory>

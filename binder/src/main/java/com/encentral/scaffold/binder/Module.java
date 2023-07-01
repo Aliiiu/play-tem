@@ -6,6 +6,8 @@
 package com.encentral.scaffold.binder;
 
 import com.google.inject.AbstractModule;
+import org.encentral.implementation.AttendanceModule;
+import org.encentral.implementation.EmployeeModule;
 import play.libs.akka.AkkaGuiceSupport;
 
 
@@ -22,5 +24,7 @@ public class Module extends AbstractModule implements AkkaGuiceSupport {
 
         bind(BigBang.class).asEagerSingleton();
 
+        install(new EmployeeModule());
+        install(new AttendanceModule());
     }
 }

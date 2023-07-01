@@ -1,0 +1,3 @@
+
+POST    /clockin                         controllers.EmployeeController.markAttendance(request:Request)
+GET     /daily/:id                       controllers.EmployeeController.getEmployeeDailyAttendance(id: Integer)

@@ -9,7 +9,7 @@
             <property name="eclipselink.profiler" value="QueryMonitor"/>
             <property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver"/>
             <property name="eclipselink.weaving" value="static"/>
-            <shared-cache-mode>NONE</shared-cache-mode>
+<!--            <shared-cache-mode>NONE</shared-cache-mode>-->
         </properties>
     </persistence-unit>
 
