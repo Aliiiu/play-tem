@@ -21,5 +21,5 @@ CREATE TABLE public.attendance(
 
 );
 
-INSERT INTO public.user(employee_id,first_name,last_name,email,password,token,role,created_at)
+INSERT INTO public.employee(employee_id,first_name,last_name,email,password,token,role,created_at)
 VALUES ("1","Aliu","Salaudeen", "admin@encentral.com", "admin","3rv2gy54yty54tvc4r","ADMIN","2023-06-25");
