@@ -22,7 +22,7 @@ public class JpaEmployee {
     private String password;
     @Column(name = "token", unique = true)
     private String token;
-    @Column(name = "role", nullable = false)
+    @Column(name = "employee_role", nullable = false)
     private Role role;
     @Column(name = "created_at",nullable = false)
     private LocalDateTime createdAt;

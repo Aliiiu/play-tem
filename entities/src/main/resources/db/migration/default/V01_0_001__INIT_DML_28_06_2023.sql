@@ -7,7 +7,7 @@ CREATE TABLE public.employee(
     email VARCHAR(255) UNIQUE NOT NULL,
     password VARCHAR(255),
     token VARCHAR(255) UNIQUE,
-    role role NOT NULL,
+    employee_role role NOT NULL,
     created_at DATE NOT NULL,
     PRIMARY KEY (employee_id)
 );
@@ -21,5 +21,5 @@ CREATE TABLE public.attendance(
 
 );
 
-INSERT INTO public.employee(employee_id,first_name,last_name,email,password,token,role,created_at)
+INSERT INTO public.employee(employee_id,first_name,last_name,email,password,token,employee_role,created_at)
 VALUES ("1","Aliu","Salaudeen", "admin@encentral.com", "admin","3rv2gy54yty54tvc4r","ADMIN","2023-06-25");
